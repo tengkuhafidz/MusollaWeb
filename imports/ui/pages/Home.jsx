@@ -1,13 +1,18 @@
-import React from 'react';
+import React, {Component} from 'react';
 
-export default class Home extends React.Component{
-  componentDidMount(){
-    document.title = "Quick Plate | Home"
-  }
+import Intro from '../home/Intro.jsx';
+import About from '../home/About.jsx';
+import NearbyMusollahs from '../home/NearbyMusollahs.jsx'
+
+export default class Home extends Component{
 
   render(){
     return(
-      <h1>This is home.. Truly.. Where I know I must be....</h1>
+      <div>
+      	<Intro />
+      	<NearbyMusollahs />
+      	<About />
+      </div>
     )
   }
 }

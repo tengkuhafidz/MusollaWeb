@@ -1,0 +1,14 @@
+.introBg{
+  -webkit-filter: opacity(0.3) contrast(80%);
+  filter: opacity(0.3) contrast(80%);
+  width:100%;
+}
+
+.parallax-container {
+  height: 600px;
+}
+
+.marginSides {
+	margin-right: 10px;
+	margin-left: 10px;
+}
