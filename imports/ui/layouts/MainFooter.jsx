@@ -25,7 +25,7 @@ const MainFooter = React.createClass({
         </div>
         <div className="footer-copyright">
           <div className="container">
-            Musollah Finder © Copyright 2016  
+            Solah Space © Copyright 2016  
           <a className="grey-text text-lighten-4 right" href="#!">More Links</a>
           </div>
         </div>

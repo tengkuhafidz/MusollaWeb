@@ -48,10 +48,6 @@ export default class MusollahDetails extends Component{
 						<p>{singleMusollah.level}</p>
 						<p>{singleMusollah.toiletLevel}</p>
 						<p>{singleMusollah.mrt}</p>
-				
-
-
-
 					</div>
 			</div>
    		)

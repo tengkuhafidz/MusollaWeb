@@ -7,6 +7,7 @@ import MainLayout from '/imports/ui/layouts/MainLayout.jsx';
 import Home from '/imports/ui/pages/Home.jsx';
 import AllMusollahs from '/imports/ui/pages/AllMusollahs.jsx';
 import MusollahDetails from '/imports/ui/pages/MusollahDetails.jsx';
+import MusollahForm from '/imports/ui/pages/MusollahForm.jsx';
 
 FlowRouter.route('/', {
   action: function(){
@@ -33,4 +34,14 @@ FlowRouter.route('/musollahDetails/:uuid', {
   })
 },
   name: "musollahDetails"
+});
+
+
+FlowRouter.route('/musollahForm', {
+  action: function(){
+    mount(MainLayout, {
+      content: () => <MusollahForm />
+  })
+},
+  name: "musollahForm"
 });

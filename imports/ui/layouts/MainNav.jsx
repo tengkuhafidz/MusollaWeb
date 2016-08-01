@@ -21,11 +21,10 @@ const MainNav = React.createClass({
       <div className="navbar-fixed">
          <nav className="green">
           <div className="nav-wrapper container">
-            <a href="#" className="brand-logo">Logo</a>
+            <a href="/" className="brand-logo">Solah.Space</a>
             <ul id="nav-mobile" className="right hide-on-med-and-down">
-              <li><a href="">Sass</a></li>
-              <li><a href="">Components</a></li>
-              <li><a href="/allMusollahs">allMusollahs</a></li>
+              <li><a href="/musollahForm">Add Musollah</a></li>
+              <li><a href="/allMusollahs">Find Musollah</a></li>
             </ul>
           </div>
         </nav>

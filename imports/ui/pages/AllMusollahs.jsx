@@ -12,6 +12,25 @@ export default class AllMusollahs extends Component{
 	}
 
 	allMusollahs(){
+		// _this = this
+
+		// Meteor.call("allMusollahs", function(error, response) {
+		// 	data = JSON.parse(response.content)
+		//     keys = Object.keys(data)
+		//     console.log("d",data)
+  //   		musollah = []
+
+  //   		for(var i = 0; i < keys.length; i++){
+  //   			musollah.push(data[keys[i]])
+  //   		}
+    		
+  //   		console.log(musollah)
+
+  //   		_this.setState({
+		// 		allMusollahs: musollah
+		// 	})	
+  //   	});
+
 
 		_this = this
 

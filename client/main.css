@@ -1,7 +1,19 @@
+html {
+  font-weight: 300;
+  font-family: 'Acme', serif;	
+}
+
 .introBg{
-  -webkit-filter: opacity(0.3) contrast(80%);
-  filter: opacity(0.3) contrast(80%);
+  -webkit-filter: opacity(0.3) contrast(50%);
+  filter: opacity(0.3) contrast(50%);
   width:100%;
+}
+
+.divOnImage { 
+   position: absolute; 
+   top: 30%; 
+   left: 0; 
+   width: 100%; 
 }
 
 .parallax-container {
@@ -11,4 +23,8 @@
 .marginSides {
 	margin-right: 10px;
 	margin-left: 10px;
+}
+
+.topGap{
+	margin-top: 30px;
 }
