@@ -2,6 +2,8 @@ import React, {Component} from 'react'
 
 import MusollahSingle from './MusollahSingle.jsx'
 
+
+
 export default class NearbyMusollahs extends Component {
 
 	constructor() {

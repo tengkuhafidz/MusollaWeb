@@ -23,9 +23,13 @@ const MainNav = React.createClass({
           <div className="nav-wrapper container">
             <a href="/" className="brand-logo">Solah.Space</a>
             <ul id="nav-mobile" className="right hide-on-med-and-down">
-              <li><a href="/musollahForm">Add Musollah</a></li>
-              <li><a href="/allMusollahs">Find Musollah</a></li>
+              <li><a href="/musollahForm">Add Musolla</a></li>
+              <li><a href="/allMusollahs">Find Musolla</a></li>
             </ul>
+            <ul className="side-nav" id="mobile-demo">
+              <li><a href="/musollahForm">Add Musolla</a></li>
+              <li><a href="/allMusollahs">Find Musolla</a></li>
+          </ul>
           </div>
         </nav>
       </div>
